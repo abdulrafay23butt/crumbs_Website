@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
+
 const foghe = localFont({
   src: "./fonts/foghe.otf",
   variable: "--font-foghe",
@@ -56,7 +59,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${sofiapro.variable} ${foghe.variable} antialiased`}
+        className={`${sofiapro.variable} ${foghe.variable} ${inter.variable} antialiased bg-[#121212]`}
       >
         {children}
       </body>

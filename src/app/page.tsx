@@ -1,9 +1,13 @@
-import Image from "next/image";
+// import Image from "next/image";
+
+import Header from "@/components/Header";
+import Hero from "@/components/Home/Hero";
 
 export default function Home() {
   return (
- <>
- <p className="font-foghe text-[40px]">hello</p>
- </>
+    <>
+      <Header />
+      <Hero />
+    </>
   );
 }

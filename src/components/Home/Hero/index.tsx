@@ -15,18 +15,18 @@ const Hero = () => {
       <div className="flex justify-center px-5">
         <div className="w-full max-w-[1328px] relative my-20 min-h-[500px]">
           <Image
-            className="absolute lefto-0 top-0"
+            className="absolute lefto-0 top-0 opacity-50"
             src={bgleft}
             alt=""
-            width={608}
-            height={362}
+            width={508}
+            height={262}
           />
           <Image
-            className="absolute right-0 bottom-0"
+            className="absolute right-0 bottom-0 opacity-50"
             src={bgright}
             alt=""
-            width={608}
-            height={362}
+            width={508}
+            height={262}
           />
           <div className="flex flex-wrap relative items-center justify-between  z-10 h-full">
             <div className="flex-col pl-10 mob:pl-2">

@@ -5,7 +5,10 @@ import bgright from "@/public/images/rightgadient.png";
 import star from "@/public/images/star.svg";
 import thunder from "@/public/images/thunder.svg";
 import pencil from "@/public/images/pencil.svg";
-import mob1 from "@/public/images/mob1.png";
+import mob1 from "@/public/images/Item.png";
+import mob2 from "@/public/images/Item (1).png";
+import mob3 from "@/public/images/Item (2).png";
+import mob4 from "@/public/images/Item (3).png";
 // import MarqueeFirst from "../Marquee/MarqueeFirst";
 import CustomMarquee from "../Marquee/MarqueeFirst";
 const Hero = () => {
@@ -41,19 +44,19 @@ const Hero = () => {
 
               <div className="flex gap-[6px]">
                 <Image src={star} alt="star" width={20} height={20} />
-                <p className="text-[24px] font-sofiapro font-normal text-[#F6F6F6]  ">
+                <p className="text-[20px] font-sofiapro font-normal text-[#F6F6F6]  ">
                   Share your journey through social content
                 </p>
               </div>
               <div className="flex gap-[6px]">
                 <Image src={thunder} alt="star" width={20} height={20} />
-                <p className="text-[24px] font-sofiapro font-normal text-[#F6F6F6] ">
+                <p className="text-[20px] font-sofiapro font-normal text-[#F6F6F6] ">
                   Inspire new people to support you
                 </p>
               </div>
               <div className="flex gap-[6px]">
                 <Image src={pencil} alt="star" width={20} height={20} />
-                <p className="text-[24px] font-sofiapro font-normal text-[#F6F6F6] ">
+                <p className="text-[20px] font-sofiapro font-normal text-[#F6F6F6] ">
                   Turn your ideas into reality
                 </p>
               </div>
@@ -63,7 +66,7 @@ const Hero = () => {
           <div className="gradient-line absolute right-0 top-[42px] max-w-[400px]"></div>
           <div className="gradient-line absolute right-0 bottom-[35px] max-w-[400px]"></div>
               
-              <div className="flex absolute left-[50%] w-[800px] top-5 ">
+              <div className="flex absolute left-[49%] w-[800px] top-5 ">
 
                 <CustomMarquee
                   height="440px"
@@ -81,7 +84,7 @@ const Hero = () => {
                   />
                   <Image
                     className="m-28 relative w-[200px]"
-                    src={mob1}
+                    src={mob2}
                     alt=""
                     width={200}
                     height={412}
@@ -105,21 +108,21 @@ const Hero = () => {
                   {/* Items inside the marquee as children */}
                   <Image
                     className="m-28 relative w-[200px]"
-                    src={mob1}
+                    src={mob3}
                     alt=""
                     width={200}
                     height={412}
                   />
                   <Image
                     className="m-28 relative w-[200px]"
-                    src={mob1}
+                    src={mob4}
                     alt=""
                     width={200}
                     height={412}
                   />
                   <Image
                     className="m-28 relative w-[200px]"
-                    src={mob1}
+                    src={mob3}
                     alt=""
                     width={200}
                     height={412}

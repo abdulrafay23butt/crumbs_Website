@@ -8,9 +8,25 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ["var(--font-inter)"],
+        arial: ["var(--font-arial)"],
+        foghe: ["var(--font-foghe)"],
+        sofiapro: ["var(--font-sofiapro)"],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "",
+        secondary: "",
+        graish: "#F6F6F6",
+        accent: "#00FFE1",
+      },
+      screens: {
+        "2xl": { max: "1535px" },
+        xl: { max: "1279px" },
+        lg: { max: "1023px" },
+        navsize: { max: "1180px" },
+        tab: { max: "991px" },
+        mob: { max: "768px" },
       },
     },
   },

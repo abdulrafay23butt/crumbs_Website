@@ -9,6 +9,9 @@ import Questions from "./Questions";
 import Link from "next/link";
 const Faqs = () => {
   return (
+    <>
+      <hr className="h-[0.5px] opacity-20 bg-[#3D3D3D]" />
+    
     <div className="flex justify-center px-5 mob:px-3">
       <div className="w-full max-w-[1328px] relative my-20 min-h-[500px]">
         <Image
@@ -59,6 +62,8 @@ const Faqs = () => {
         </div>
       </div>
     </div>
+    </>
+
   );
 };
 

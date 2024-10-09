@@ -7,8 +7,10 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Hero />
-      <JoinCommunity/>
+    <div className="min-h-screen">
+    <Hero />
+    <JoinCommunity/>
+    </div>
       <Header />
 
     </>

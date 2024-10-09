@@ -11,7 +11,7 @@ const JoinCommunity = () => {
       </p>
       <div className="flex justify-center gap-[8px] mt-8 mb-12">
         <input
-          className="w-full max-w-[239px] h-[40px] px-3 border-[1px] outline-none text-[#888888] bg-[#1C1C1C] border-[#888888]/90 rounded-[3px] placeholder:text-[#888888] placeholder:text-[14px] placeholder:font-foghe"
+          className="w-full max-w-[239px] h-[40px] px-3 border-[1px] outline-none text-[#888888] bg-[#1C1C1C] border-[#3D3D3D] rounded-[3px] placeholder:text-[#888888] placeholder:text-[14px] placeholder:font-foghe"
           type="text"
           placeholder="enter your email address"
         />

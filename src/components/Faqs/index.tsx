@@ -26,14 +26,14 @@ const Faqs = () => {
           height={673.68}
         />
         <div className="w-full p-10 mob:p-3 relative z-10">
-          <Link href="/" className="w-[68px] h-[29px] flex  items-center justify-center text-[#888888] text-[14px] font-sofiapro gap-[6px] border-[1px] border-[#888888] rounded-[4px] transition duration-400 ease-in-out hover:bg-[#888888]/10 ">
+          <Link href="/" className="w-[68px] h-[29px] flex  items-center justify-center text-[#888888] text-[14px] font-sofiapro gap-[6px] border-[1px] border-[#3D3D3D] rounded-[4px] transition duration-400 ease-in-out hover:bg-[#888888]/10 ">
             <Image src={arrowback} alt="" /> Back
           </Link>
           <h1 className="text-[32px] font-foghe font-normal text-graish  leading-[38.4px] mt-6 mb-4">
             Get in touch
           </h1>
 
-          <div className="flex flex-wrap justify-between items-center px-5 min-h-[60px] mob:py-4 border-[1px] border-[#888888] rounded-[4px] w-full ">
+          <div className="flex flex-wrap justify-between items-center px-5 min-h-[60px] mob:py-4 border-[1px] border-[#3D3D3D] rounded-[4px] w-full ">
             <p className="text-[14px] text-center mob:text-left mob:mb-3 font-sofiapro font-normal text-[#888888]">
               Don&apos;t hesitate to reach out if you have any questions.
             </p>

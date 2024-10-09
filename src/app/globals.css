@@ -2,3 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.gradient-line {
+    width: 100%;
+    height: 1px; /* Adjust the height to create a line effect */
+    background: linear-gradient(
+      to right, /* Direction of the gradient */
+      #121212 0%,  /* Start at #121212 */
+      #121212 3%, /* First section at #121212 */
+      #3D3D3D 50%, /* Middle section at #3D3D3D */
+      #121212 97%, /* Second section back to #121212 */
+      #121212 100% /* End at #121212 */
+    );
+  }
+  

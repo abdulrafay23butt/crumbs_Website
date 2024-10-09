@@ -1,17 +1,14 @@
-// import Image from "next/image";
-
+import Faqs from "@/components/Faqs";
 import Header from "@/components/Header";
-import Hero from "@/components/Home/Hero";
 import JoinCommunity from "@/components/Home/JoinCommunity";
 
-export default function Home() {
+export default function FaqsPage() {
   return (
     <>
       <Header />
-      <Hero />
+      <Faqs />
       <JoinCommunity/>
       <Header />
-
     </>
   );
 }

@@ -41,7 +41,6 @@ const Hero = () => {
                 Share every step of your journey and inspire others to support
                 your vision
               </p>
-
               <div className="flex gap-[6px]">
                 <Image src={star} alt="star" width={20} height={20} />
                 <p className="text-[20px] font-sofiapro font-normal text-[#F6F6F6]  ">

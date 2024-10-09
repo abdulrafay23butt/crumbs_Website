@@ -5,6 +5,7 @@ import bgright from "@/public/images/rightgadient.png";
 import star from "@/public/images/star.svg";
 import thunder from "@/public/images/thunder.svg";
 import pencil from "@/public/images/pencil.svg";
+import mob1 from "@/public/images/mob1.png";
 // import MarqueeFirst from "../Marquee/MarqueeFirst";
 import CustomMarquee from "../Marquee/MarqueeFirst";
 const Hero = () => {
@@ -12,8 +13,8 @@ const Hero = () => {
     <>
       <hr className="h-[0.5px] opacity-20 bg-[#F6F6F6]" />
 
-      <div className="flex justify-center px-5">
-        <div className="w-full max-w-[1328px] relative my-20 min-h-[500px]">
+      <div className="flex justify-center px-5 mob:px-3">
+        <div className="w-full max-w-[1328px] relative my-20 min-h-[500px] overflow-hidden">
           <Image
             className="absolute lefto-0 top-0 opacity-50"
             src={bgleft}
@@ -28,9 +29,9 @@ const Hero = () => {
             width={508}
             height={262}
           />
-          <div className="flex flex-wrap relative items-center justify-between  z-10 h-full">
-            <div className="flex-col pl-10 mob:pl-2">
-              <h1 className="text-[56px] font-foghe font-normal text-graish max-w-[459px] leading-[67.2px]">
+          <div className="flex flex-wrap  items-center justify-between  z-10 h-full ">
+            <div className="flex-col pl-10 mob:px-3 mob:py-4 relative z-10">
+              <h1 className="text-[56px] mob:text-[50px] font-foghe font-normal text-graish max-w-[459px] leading-[67.2px] mob:leading-[60.2px]">
                 The First Step For Every Innovator
               </h1>
               <p className="text-[18px] font-sofiapro font-normal text-[#888888]  mt-4 mb-6">
@@ -58,42 +59,71 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="flex-col mob:hidden">
-              <div className="flex max-w-[200px]">
+            <div className="flex-col tab:hidden">
+          <div className="gradient-line absolute right-0 top-[42px] max-w-[400px]"></div>
+          <div className="gradient-line absolute right-0 bottom-[35px] max-w-[400px]"></div>
+              
+              <div className="flex absolute left-[50%] w-[800px] top-5 ">
+
                 <CustomMarquee
-                  height="500px"
-                  width="100%"
+                  height="440px"
+               width="800px"
                   speed={50}
                   direction="up"
                 >
                   {/* Items inside the marquee as children */}
-                  <div className="bg-gray-200 p-4 text-center w-full">
-                    Item 1
-                  </div>
-                  <div className="bg-gray-200 p-4 text-center w-full">
-                    Item 2
-                  </div>
-                  <div className="bg-gray-200 p-4 text-center w-full">
-                    Item 3
-                  </div>
-                  <div className="bg-gray-200 p-4 text-center w-full">
-                    Item 4
-                  </div>
-                  <div className="bg-gray-200 p-4 text-center w-full">
-                    Item 5
-                  </div>
-                  <div className="bg-gray-200 p-4 text-center w-full">
-                    Item 1
-                  </div>
-                  <div className="bg-gray-200 p-4 text-center w-full">
-                    Item 2
-                  </div>
-                  <div className="bg-gray-200 p-4 text-center w-full">
-                    Item 3
-                  </div>
-                  <div className="bg-gray-200 p-4 text-center w-full">
-                    Item 4
-                  </div>
+                  <Image
+                    className="m-28 relative w-[200px]"
+                    src={mob1}
+                    alt=""
+                    width={200}
+                    height={412}
+                  />
+                  <Image
+                    className="m-28 relative w-[200px]"
+                    src={mob1}
+                    alt=""
+                    width={200}
+                    height={412}
+                  />
+                  <Image
+                    className="m-28 relative w-[200px]"
+                    src={mob1}
+                    alt=""
+                    width={200}
+                    height={412}
+                  />
+                </CustomMarquee>
+              </div>
+              <div className="flex absolute left-[67%] w-[800px] top-5">
+                <CustomMarquee
+                  height="440px"
+                  width="800px"
+                  speed={50}
+                  direction="down"
+                >
+                  {/* Items inside the marquee as children */}
+                  <Image
+                    className="m-28 relative w-[200px]"
+                    src={mob1}
+                    alt=""
+                    width={200}
+                    height={412}
+                  />
+                  <Image
+                    className="m-28 relative w-[200px]"
+                    src={mob1}
+                    alt=""
+                    width={200}
+                    height={412}
+                  />
+                  <Image
+                    className="m-28 relative w-[200px]"
+                    src={mob1}
+                    alt=""
+                    width={200}
+                    height={412}
+                  />
                 </CustomMarquee>
               </div>
             </div>

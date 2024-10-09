@@ -89,7 +89,7 @@ const Questions = () => {
       >
         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 1, 900: 1 }}>
           <Masonry gutter="20px">
-            {accordionData.map((accordion, index) => (
+            {accordionData.map((accordion) => (
               <Accordion
                 key={accordion.id}
                 title={accordion.title}

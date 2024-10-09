@@ -1,9 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useState, useRef } from "react";
-
-// import Text from "@/ui/Text";
-// import Button from "@/ui/Button";
+import {  useRef } from "react";
 import { cn } from "@/lib/utils";
 
 import minusIcon from "@/public/images/minus-icon.svg";
@@ -17,16 +14,13 @@ interface AccordionProps {
 }
 
 const Accordion: React.FC<AccordionProps> = (props) => {
-  const { title, children, isActive: isOpen, onClick, className } = props;
-  // const [isOpen, setIsOpen] = useState(isActive);
+  const { title, children, isActive: isOpen, onClick,  } = props;
   const contentRef = useRef<HTMLDivElement | null>(null);
 
   const toggleAccordion = () => {
-    // setIsOpen(!isOpen);
     onClick();
   };
 
-  // Calculate and set the height of the content dynamically
   const contentHeight =
     isOpen && contentRef.current ? contentRef.current.offsetHeight : 0;
 

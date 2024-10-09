@@ -14,4 +14,6 @@
       #121212 100% /* End at #121212 */
     );
   }
-  
+  .rfm-marquee-container{
+    width: 600px !important;
+  }

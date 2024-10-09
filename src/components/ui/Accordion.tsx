@@ -26,11 +26,21 @@ const Accordion: React.FC<AccordionProps> = (props) => {
 
   return (
     <div
-      className="cursor-pointer rounded-[4px] border-[1px] border-[#888888] py-4 pl-2 mob:py-5"
+      // className="cursor-pointer rounded-[4px] border-[1px] border-[#888888] py-4 pl-2 mob:py-5"
+      className={cn(
+        "cursor-pointer rounded-[4px] border-[1px] border-[#3D3D3D] py-4 pl-2 mob:py-5",
+        isOpen && "border-[#888888]",
+      )}
       onClick={toggleAccordion}
     >
       <div className="flex items-center justify-between px-3 mob:px-3">
-        <p className="text-[16px] font-normal font-sofiapro leading-[22.4px] text-[#888888] mob:max-w-[85%]">{title}</p>
+        <p 
+        // className="text-[16px] font-normal font-sofiapro leading-[22.4px] text-[#888888] mob:max-w-[85%]"
+         className={cn(
+          "text-[16px] font-normal font-sofiapro leading-[22.4px] text-[#888888] mob:max-w-[85%]",
+          isOpen && "text-[#F6F6F6]",
+        )}
+        >{title}</p>
 
         <button  className="relative">
           <Image src={minusIcon} alt="minusIcon"

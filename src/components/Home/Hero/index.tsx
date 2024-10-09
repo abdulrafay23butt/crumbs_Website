@@ -94,6 +94,13 @@ const Hero = () => {
                     width={200}
                     height={412}
                   />
+                  <Image
+                    className="m-28 relative w-[200px]"
+                    src={mob2}
+                    alt=""
+                    width={200}
+                    height={412}
+                  />
                 </CustomMarquee>
               </div>
               <div className="flex absolute left-[67%] w-[800px] top-5">
@@ -121,6 +128,13 @@ const Hero = () => {
                   <Image
                     className="m-28 relative w-[200px]"
                     src={mob3}
+                    alt=""
+                    width={200}
+                    height={412}
+                  />
+                  <Image
+                    className="m-28 relative w-[200px]"
+                    src={mob4}
                     alt=""
                     width={200}
                     height={412}

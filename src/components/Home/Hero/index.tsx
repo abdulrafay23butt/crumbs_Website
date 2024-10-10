@@ -41,7 +41,6 @@ const Hero = () => {
                 Share every step of your journey and inspire others to support
                 your vision
               </p>
-
               <div className="flex gap-[6px]">
                 <Image src={star} alt="star" width={20} height={20} />
                 <p className="text-[20px] font-sofiapro font-normal text-[#F6F6F6]  ">
@@ -65,9 +64,7 @@ const Hero = () => {
             <div className="flex-col tab:hidden">
           <div className="gradient-line absolute right-0 top-[42px] max-w-[400px]"></div>
           <div className="gradient-line absolute right-0 bottom-[35px] max-w-[400px]"></div>
-              
               <div className="flex absolute left-[49%] w-[800px] top-5 ">
-
                 <CustomMarquee
                   height="440px"
                width="800px"
@@ -92,6 +89,13 @@ const Hero = () => {
                   <Image
                     className="m-28 relative w-[200px]"
                     src={mob1}
+                    alt=""
+                    width={200}
+                    height={412}
+                  />
+                  <Image
+                    className="m-28 relative w-[200px]"
+                    src={mob2}
                     alt=""
                     width={200}
                     height={412}
@@ -123,6 +127,13 @@ const Hero = () => {
                   <Image
                     className="m-28 relative w-[200px]"
                     src={mob3}
+                    alt=""
+                    width={200}
+                    height={412}
+                  />
+                  <Image
+                    className="m-28 relative w-[200px]"
+                    src={mob4}
                     alt=""
                     width={200}
                     height={412}

@@ -65,7 +65,6 @@ const Hero = () => {
           <div className="gradient-line absolute right-0 top-[42px] max-w-[400px]"></div>
           <div className="gradient-line absolute right-0 bottom-[35px] max-w-[400px]"></div>
               <div className="flex absolute left-[49%] w-[800px] top-5 ">
-
                 <CustomMarquee
                   height="440px"
                width="800px"

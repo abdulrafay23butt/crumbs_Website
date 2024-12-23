@@ -37,34 +37,50 @@ const Hero = () => {
               <h1 className="text-[56px] mob:text-[50px] font-foghe font-normal text-graish max-w-[459px] leading-[67.2px] mob:leading-[60.2px]">
                 The First Step For Every Innovator
               </h1>
-              <p className="text-[18px] font-sofiapro font-normal text-[#888888]  mt-4 mb-6">
+              <p className="text-[16px] font-sofiapro font-normal text-[#888888]  mt-4 mb-6">
               Crumbs combines the best features of Kickstarter and Tik Tok to make a revolutionary crowdfunding platform
               </p>
               <div className="flex gap-[6px]">
                 <Image src={star} alt="star" width={20} height={20} />
                 <p className="text-[20px] font-sofiapro font-normal text-[#F6F6F6]  ">
-                Create Your Campaign
+                Create Your Campaign:
+                </p>
+              </div>
+              <div className="flex gap-[6px]">
+                <p className="text-[16px] font-sofiapro font-normal text-[#F6F6F6]  ">
                 Easily set up your page, share your story, and define your funding goals and rewards.
                 </p>
               </div>
               <div className="flex gap-[6px]">
                 <Image src={thunder} alt="star" width={20} height={20} />
                 <p className="text-[20px] font-sofiapro font-normal text-[#F6F6F6] ">
-                Engage Your Audience
+                Engage Your Audience:
+                </p>
+              </div>
+              <div className="flex gap-[6px]">
+                <p className="text-[14px] font-sofiapro font-normal text-[#F6F6F6]  ">
                 Use Crumbs' integrated social media features to connect with supporters, share updates, and grow excitement.
                 </p>
               </div>
               <div className="flex gap-[6px]">
                 <Image src={pencil} alt="star" width={20} height={20} />
                 <p className="text-[20px] font-sofiapro font-normal text-[#F6F6F6] ">
-                Turn Support into Momentum
+                Turn Support into Momentum:
+                </p>
+              </div>
+              <div className="flex gap-[6px]">
+                <p className="text-[14px] font-sofiapro font-normal text-[#F6F6F6]  ">
                 Build social proof through comments, shares, and real-time engagement to attract new backers and build your community.
                 </p>
               </div>
               <div className="flex gap-[6px]">
                 <Image src={star} alt="star" width={20} height={20} />
                 <p className="text-[20px] font-sofiapro font-normal text-[#F6F6F6] ">
-                Fund Your Dream
+                Fund Your Dream:
+                </p>
+              </div>
+              <div className="flex gap-[6px]">
+                <p className="text-[14px] font-sofiapro font-normal text-[#F6F6F6]  ">
                 Watch your community grow, reach your funding goal, and bring your idea to life!
                 </p>
               </div>

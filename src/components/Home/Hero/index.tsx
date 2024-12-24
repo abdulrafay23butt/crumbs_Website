@@ -56,7 +56,7 @@ const Hero = () => {
               </div>
               <div className="flex gap-[6px]">
                 <p className="text-[14px] font-sofiapro font-normal text-[#F6F6F6]  ">
-                Use Crumbs' integrated social media features to connect with supporters, share updates, and grow excitement.
+                Use Crumbs integrated social media features to connect with supporters, share updates, and grow excitement.
                 </p>
               </div>
               <div className="flex gap-[6px]">

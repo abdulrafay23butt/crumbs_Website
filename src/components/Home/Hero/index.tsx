@@ -34,12 +34,9 @@ const Hero = () => {
           />
           <div className="flex flex-wrap  items-center justify-between  z-10 h-full ">
             <div className="flex-col pl-10 mob:px-3 mob:py-4 relative z-10">
-              <h1 className="text-[56px] mob:text-[50px] font-foghe font-normal text-graish max-w-[459px] leading-[67.2px] mob:leading-[60.2px]">
-                The First Step For Every Innovator
+              <h1 className="text-[40px] mob:text-[50px] font-foghe font-normal text-graish max-w-[459px] leading-[67.2px] mob:leading-[60.2px]">
+              Crumbs combines the best features of Kickstarter and Tik Tok
               </h1>
-              <p className="text-[16px] font-sofiapro font-normal text-[#888888]  mt-4 mb-6">
-              Crumbs combines the best features of Kickstarter and Tik Tok to make a revolutionary crowdfunding platform
-              </p>
               <div className="flex gap-[6px]">
                 <Image src={star} alt="star" width={20} height={20} />
                 <p className="text-[20px] font-sofiapro font-normal text-[#F6F6F6]  ">
